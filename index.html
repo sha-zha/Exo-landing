@@ -3,6 +3,7 @@
 <head>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<link rel="stylesheet" href="css/all.min.css">
+	<link rel="stylesheet" href="css/style.css">
 	<title>Landing Page</title>
 
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
@@ -32,18 +33,94 @@
 
 	<!--Header -->
 
-	<div class="position-relative overflow-hidden text-center bg-light">
-      <div class="col-md-5 p-lg-5 mx-auto" id="cover" style="background-image: url(images/woman.jpg);
+	<header class="position-relative overflow-hidden text-center bg-light">
+      <div class="header d-flex justify-content-center align-items-center" id="cover" style="
+    background-image: url(images/woman.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 400px;">
-        <h1 class="display-4 text-white">Landing Page</h1>
-        <p class="lead font-weight-normal text-white">A template by Start Bootstrap.</p>
-        <hr class="text-white">
-        <a class="btn btn-light" href="#"><i class="fab fa-github"></i> Coming soon</a>
-      </div>
-      <div class="product-device box-shadow d-none d-md-block"></div>
-      <div class="product-device product-device-2 box-shadow d-none d-md-block"></div>
-    </div>
+    height: 400px;
+    ">
+
+    	<div class="container-fluid">
+    		<div class="col-sm-5 col-md-5 mx-auto" style="
+">
+    			<h1 class="text-white">Landing Page</h1>
+	        <p class="lead font-weight-normal text-white border-header">A template by Start Bootstrap.</p>
+
+	        <!-- bouttons -->
+	        <div class="d-inline">
+	        	<a class="btn btn-light text-upper mt-2 mr-2" href="#"><i class="fab fa-twitter"></i> Twitter</a>
+	        	<a class="btn btn-light text-upper mt-2 mr-2" href="#"><i class="fab fa-github"></i> Github</a>
+	         	<a class="btn btn-light text-upper mt-2 mr-2" href="#"><i class="fab fa-linkedin-in"></i> Linkedin</a>
+	        </div>
+
+	    
+    		</div>
+    	 </div>	
+
+    	</div>
+
+    </header>
+
+    <main>
+    	<!-- section 1  -->
+    	<section class="container-fluid p-0">
+    		<div class="jumbotron">
+    			<div class="row">
+    				<div class="col-5 mx-auto">
+    					<hr class="w-50 border-hr">
+    					<h2>Death to the stock photo:<h2>
+    					<h2 class="mb-2">Speciale Thanks</h2> 
+    					<p class="mt-4">A speciale thanks to <a href="#">Death to the stock photo</a> for providing the photographs that you see in this template. Visit thier website to become a member. </p>
+    				</div>
+
+    				<div class="col-5 mx-auto d-flex justify-content-center align-items-center">
+    					<img src="images/woman.jpg" alt="image femme" class="img-fluid">
+    				</div> 
+    			</div>
+    		</div>
+    		
+    	</section>
+
+    	<!-- section 2 -->
+    	<section class="container-fluid p-0">
+
+    			<div class="row">
+
+
+    				<div class="col-5 mx-auto d-flex justify-content-center align-items-center">
+    					<img src="images/woman.jpg" alt="image femme" class="img-fluid">
+    				</div>
+
+    				<div class="col-5 mx-auto">
+    					<hr class="w-50 border-hr">
+    					<h2>3D Device Mockups:<h2>
+    					<h2 class="mb-2">by PSDCovers</h2> 
+    					<p class="mt-4">Turn your 2D designs into high quality, 3D product shots in seconds using free Photoshop  actions by <a href="#">PSDCovers</a>! Visit thier website to download some of thier awesome, free  photoshop actions ! </p>
+    				</div> 
+    			</div>
+
+    		
+    	</section>
+
+    	<!-- Section 3 -->
+    	<section class="container-fluid p-0">
+    		<div class="jumbotron">
+    			<div class="row">
+    				<div class="col-5 mx-auto">
+    					<hr class="w-50 border-hr">
+    					<h2>Google Web fonts and Font Awesome Icons</h2>
+    					<p class="mt-4">This template features the Lato font, part of  <a href="#">Google web font library</a>, as well as <a href="#">icons from fontawesome</a>.</p>
+    				</div>
+
+    				<div class="col-5 mx-auto d-flex justify-content-center align-items-center">
+    					<img src="images/woman.jpg" alt="image femme" class="img-fluid">
+    				</div> 
+    			</div>
+    		</div>
+    		
+    	</section>
+
+    </main>
 </body>
 </html>
