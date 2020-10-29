@@ -11,7 +11,7 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </head>
 <body>
-	<!-- NAVBAR -->
+		<!-- NAVBAR -->
 
 		
 		<nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -19,43 +19,44 @@
 		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
 		    <span class="navbar-toggler-icon"></span>
 		  </button>
+
 		  	<div class="container">
-		  <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
-		    <div class="navbar-nav text-center">
-		      <a class="nav-item nav-link active" href="#">About<span class="sr-only">(current)</span></a>
-		      <a class="nav-item nav-link" href="#">Services</a>
-		      <a class="nav-item nav-link" href="#">Contact</a>
-		    </div>
-		  </div>
+			  <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
+			    <div class="navbar-nav text-center">
+			      <a class="nav-item nav-link active" href="#about">About<span class="sr-only">(current)</span></a>
+			      <a class="nav-item nav-link" href="#service">Services</a>
+			      <a class="nav-item nav-link" href="#contact">Contact</a>
+			    </div>
+			  </div>
+			</div>
 		</nav>
-		</div>
 
 
 	<!--Header -->
 
 	<header class="position-relative overflow-hidden text-center bg-light">
-      <div class="header d-flex justify-content-center align-items-center" id="cover" style="
-    background-image: url(images/woman.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 400px;
-    ">
+      <div class="header d-flex justify-content-center align-items-center" id="cover">
 
     	<div class="container-fluid">
-    		<div class="col-sm-5 col-md-5 mx-auto" style="
-">
-    			<h1 class="text-white">Landing Page</h1>
-	        <p class="lead font-weight-normal text-white border-header">A template by Start Bootstrap.</p>
+    		<div class="row">
+	    		<div class="col-sm-8 col-md-5 mx-auto">
+	    			<h1 class="text-white">Landing Page</h1>
+		        <p class="lead font-weight-normal text-white border-header">A template by Start Bootstrap.</p>
+				</div>
+ 				
+ 				<!-- bouttons -->
+				<div class="col-sm-8 mx-auto">
+						       
+			        <div class="d-inline">
+			        	<a class="btn btn-light text-upper mt-2 mr-2" href="#"><i class="fab fa-twitter"></i> Twitter</a>
+			        	<a class="btn btn-light text-upper mt-2 mr-2" href="#"><i class="fab fa-github"></i> Github</a>
+			         	<a class="btn btn-light text-upper mt-2 mr-2" href="#"><i class="fab fa-linkedin-in"></i> Linkedin</a>
+			        </div>
+				</div>
 
-	        <!-- bouttons -->
-	        <div class="d-inline">
-	        	<a class="btn btn-light text-upper mt-2 mr-2" href="#"><i class="fab fa-twitter"></i> Twitter</a>
-	        	<a class="btn btn-light text-upper mt-2 mr-2" href="#"><i class="fab fa-github"></i> Github</a>
-	         	<a class="btn btn-light text-upper mt-2 mr-2" href="#"><i class="fab fa-linkedin-in"></i> Linkedin</a>
-	        </div>
-
-	    
+	    		    			
     		</div>
+
     	 </div>	
 
     	</div>
@@ -64,12 +65,12 @@
 
     <main>
     	<!-- section 1  -->
-    	<section class="container-fluid p-0">
+    	<section class="container-fluid p-0" id="about">
     		<div class="jumbotron">
     			<div class="row">
     				<div class="col-5 mx-auto">
     					<hr class="w-50 border-hr">
-    					<h2>Death to the stock photo:<h2>
+    					<h2>Death to the stock photo:</h2>
     					<h2 class="mb-2">Speciale Thanks</h2> 
     					<p class="mt-4">A speciale thanks to <a href="#">Death to the stock photo</a> for providing the photographs that you see in this template. Visit thier website to become a member. </p>
     				</div>
@@ -82,25 +83,27 @@
     		
     	</section>
 
+
     	<!-- section 2 -->
-    	<section class="container-fluid p-0">
+    	<section class="container-fluid mt-3 p-0" id="service">
 
-    			<div class="row">
+    			<div class="row m-0">
 
 
-    				<div class="col-5 mx-auto d-flex justify-content-center align-items-center">
+    				<div class="col-5 mx-auto ">
     					<img src="images/woman.jpg" alt="image femme" class="img-fluid">
     				</div>
 
     				<div class="col-5 mx-auto">
     					<hr class="w-50 border-hr">
-    					<h2>3D Device Mockups:<h2>
+    					<h2>3D Device Mockups:</h2>
     					<h2 class="mb-2">by PSDCovers</h2> 
     					<p class="mt-4">Turn your 2D designs into high quality, 3D product shots in seconds using free Photoshop  actions by <a href="#">PSDCovers</a>! Visit thier website to download some of thier awesome, free  photoshop actions ! </p>
     				</div> 
+
     			</div>
 
-    		
+
     	</section>
 
     	<!-- Section 3 -->
@@ -121,6 +124,65 @@
     		
     	</section>
 
+	 	<section class="position-relative overflow-hidden  text-center bg-light" style="" id="contact">
+	         <div class="container-fluid">
+	         	<div class="row justify-content-center align-items-center">
+	    			<div class="col-sm-5 col-md-5 mx-auto">
+	    				<h1 class="text-white">Connect to Start Boostrap : </h1>
+
+		    
+	    			</div>	
+
+	    			<div class="col-sm-5 mx-auto">
+	    					<!-- bouttons -->
+			        <div class="d-inline">
+			        	<a class="btn btn-light text-upper mt-2 mr-2" href="#"><i class="fab fa-twitter"></i> Twitter</a>
+			        	<a class="btn btn-light text-upper mt-2 mr-2" href="#"><i class="fab fa-github"></i> Github</a>
+			         	<a class="btn btn-light text-upper mt-2 mr-2" href="#"><i class="fab fa-linkedin-in"></i> Linkedin</a>
+			        </div>  
+	    			</div>
+
+		    	       		
+	         	</div>
+
+
+
+    	 	</div>	
+	    </section>  
+
     </main>
+
+    <footer>
+    	<section class="container">
+    		<div class="row">
+    			<div class="col-sm-10 mx-auto">
+    				<nav>
+    		<ul class="nav" style="list-style: inherit!important;">
+    			<li class="nav-item mr-2">
+				    <a class="nav-link active " href="#about">About</a>
+				</li>
+			  	
+			  	<li class="nav-item mr-2">
+			    	<a class="nav-link" href="#service">Service</a></li>
+			  	</li>
+
+			  	<li class="nav-item mr-2">
+				    <a class="nav-link" href="#contact">Contact</a></li>
+				</li>
+
+    		</ul>
+
+    	</nav>
+
+    	<div class="inner">
+          <p>Copyright Start Bootstrap template for <a href="https://getbootstrap.com/">Bootstrap</a>, by <a href="https://twitter.com/mdo">@mdo</a>.</p>
+        </div>
+    			</div>
+    		</div>
+    		
+    	</section>
+    	
+
+    </footer>
 </body>
 </html>
