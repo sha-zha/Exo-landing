@@ -11,7 +11,7 @@ Chaque apprenant doit réaliser un site web statique avec bootstrap, chaque appr
 1. Créer le dépôt sur github
 2. Créer la strucutre du projet 
 3. Intégrer dans le fichier index.html bootstrap 
-4. Ajout du pdf
+4. Ajout du pdf ( le fichier ce trouve dans le dossier images )
 
 ## utilisation
  
