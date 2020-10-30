@@ -6,6 +6,8 @@ Chaque apprenant doit réaliser un site web statique avec bootstrap, chaque appr
 -Une maquette de site en PDF <br>
 -lien de dépôt github
 
+[démo de la landing page](https://sha-zha.github.io/Exo-landing/index.html)
+
 ## Explication
 
 1. Créer le dépôt sur github
