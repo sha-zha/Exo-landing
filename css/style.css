@@ -1,0 +1,31 @@
+/*headear */
+.border-header{
+
+	border-bottom: solid 1.5px #fff!important;
+
+}
+
+#cover{
+ 	background-image: url(../images/woman.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+ }
+
+/*sections*/
+.border-hr{
+	margin : 0;
+	border-top : 2px solid rgb(209 212 215);
+}
+
+.jumbotron{
+	margin : 0!important;
+}
+
+/*bande */
+
+#contact {
+	background-image: url(../images/woman.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
